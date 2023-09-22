@@ -1,0 +1,123 @@
+/*Globais*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale; 
+  }
+:root {
+    font-size: 62.5%;
+  }
+.hide{
+    display: none;
+}
+main{
+    display: grid;
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(45deg, #190361 0%, #B0F 100%);
+}
+/*screen1*/
+.screen1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 42.8rem;
+    padding: 4.8rem 6.4rem 6.4rem 6.4rem;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 2.0rem 5.0rem 0px rgba(0, 0, 0, 0.80);
+    margin:auto;
+}
+.screen1 button{
+    background-color: #FFF;
+    border: none;
+}
+.screen1 h1{
+    width: 25.9rem;
+    color: #34355B;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 2.4rem;
+    font-weight: 700;
+}
+.screen1 p{
+    color: #34355B;
+    font-family: DM Sans;
+    font-size: 1.5rem;
+    font-style: normal;
+    margin: 1.4rem auto 2.6rem auto;
+}
+.screen1 button:hover{
+    animation: shake 0.5s infinite;
+}
+
+@keyframes shake{
+    0% { transform: translateX(0); }
+  25% { transform: translateX(-5px) rotate(-5deg); }
+  50% { transform: translateX(5px) rotate(5deg); }
+  75% { transform: translateX(-5px) rotate(-5deg); }
+  100% { transform: translateX(0); }
+}
+
+/*screen2*/
+.screen2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 42.8rem;
+    padding: 4.8rem 6.4rem 6.4rem 6.4rem;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 2.0rem 5.0rem 0px rgba(0, 0, 0, 0.80);
+    margin:auto;
+}
+.screen2 h1{
+    width: 25.9rem;
+    color: #34355B;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 2.4rem;
+    font-weight: 700;
+    margin-bottom: 1.7rem;
+}
+.screen2 p{
+    width: 27rem;
+    color: #000;
+    padding: 1rem;
+    text-align: center;
+    font-family: Dancing Script;
+    font-size: 24px;
+    font-weight: 400;
+    background: #E4EDF1;
+    box-shadow: 2px 2px 2px 0px rgba(85, 85, 85, 0.50);
+}
+.screen2  button{
+    padding: 1.6rem;
+    border-radius: 4px;
+    background: #FF9500;
+    border: none;
+
+    color: #FFF;
+    text-align: center;
+    font-family: DM Sans;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 700;
+}   
+.screen2 img{
+  margin: 6.0rem;  
+}
+.screen2 button:hover{
+    background-color: #9e5d02;
+}
+.screen2 button{
+     background-color: #FF9500;
+    transition: background-color 0.3s;
+}
+.screen2 button:hover{
+    background-color: #9e5d02;
+  }
+  .hide{
+    display: none;}
